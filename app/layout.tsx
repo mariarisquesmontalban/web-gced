@@ -34,6 +34,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="google-site-verification" content="msSjVHdwoztuyX2PRHgA_I4n6T5qGgwJcop11mVISFM" />
+      </head>
       <body className={`${inter.className} flex min-h-screen flex-col antialiased`}>
         <Header />
         <div className="flex-1">{children}</div>
